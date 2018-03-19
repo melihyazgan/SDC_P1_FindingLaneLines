@@ -30,9 +30,10 @@ My pipeline consisted of 5 steps. Below is tried to explain shortly:
    2)Gaussian Blur: Applied 3x3 gaussian kernel to grayscaled image
     
    3)Canny: Approached 3 different way: One of them is ["OTSU"](https://en.wikipedia.org/wiki/Otsu%27s_method) Thresholding. It assumes an image as a Bimodal distribution and applied only a grayscaled image.Another one is Gaussian Distribution with default sigma 0.33. The last one is manually adjusted by using trial and error.
-    ![image2](./canny_auto/solidWhiteCurve.jpg "Auto Canny")
-    ![image3](./canny_OTSU/solidWhiteCurve.jpg "OTSU Canny")
-    ![image4](./canny_manual/solidWhiteCurve.jpg "Manual Canny")
+   
+   ![image2](./canny_auto/solidWhiteCurve.jpg "Auto Canny")
+   ![image3](./canny_OTSU/solidWhiteCurve.jpg "OTSU Canny")
+   ![image4](./canny_manual/solidWhiteCurve.jpg "Manual Canny")
     
    4)Region of Interest(ROI): Extracting a ROI with given values.
     
